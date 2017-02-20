@@ -1,0 +1,6 @@
+.list{
+  display: none;
+}
+#mylist{
+  list-style: square;
+}
