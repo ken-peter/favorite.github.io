@@ -4,7 +4,6 @@ $(document).ready(function() {
 
       favs.forEach(function(fav) {
         var userInput = $("input#" + fav).val();
-        console.log(userInput);
         $("#mylist").append("<li>" + userInput + "</li>");
       });
 
